@@ -1,0 +1,428 @@
+body
+{
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+h1
+{
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2
+{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+h3
+{
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+h4
+{
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+h5
+{
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+p
+{
+    font-family: "Montserrat";
+    color:black;
+}
+
+#title
+{
+    color: #fff;
+}
+.container-fluid
+{
+    padding :5% 15% 8%;
+}
+
+
+/*Navigation Bar*/
+
+.navbar 
+{
+    padding: 20px 40px;
+    background-color: #161616; 
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-size: 1.3rem;
+    font-family: "Montserrat";
+    color:rgba(255,255,255,.55);
+}
+.nav-link:hover
+{
+    color:white;
+}
+
+
+/*Download Buttons*/
+
+.download-button
+{
+    margin:5% 3% 5% 0;
+}
+
+.almek-button
+{
+    padding:0px 30px 30px;
+}
+
+/*Title-image*/
+
+.almek-image
+{
+    width: 120%;
+    padding-right: 10px;
+}
+.title-image
+{
+    width: 34%;
+    position: absolute;
+    padding-left: 50px;
+    margin-left: 30px;
+ 
+}
+
+
+
+/*features-section*/
+ 
+#features
+{
+    padding:7% 15%;
+    background-color:#FF4893;
+    color: #EDF285;
+    position: relative;
+}
+
+.feature-box
+{
+    text-align: center;
+    padding: 4.5%;
+}
+
+.features-p
+{
+    color: white;
+}
+.icon
+{
+    color:white;
+    margin-bottom: 1rem;
+}
+
+.icon:hover
+{
+    color: #CC0E74;
+}
+
+
+/*Testimonial Section*/
+
+#testimonials
+{
+    padding: 150px 174px;
+    text-align: justify;
+    background-color: #fff;    
+}
+
+
+.carousel-item
+{
+    padding: 7% 18% 5%;
+}
+
+/*Product Section*/
+
+.card 
+{
+    padding:10px;
+    background-color:#66DE93;
+}
+.card-header
+{
+    background-color:#66DE93;
+    padding:12px 16px 12px 16px;
+}
+.card-body
+{
+    background-color:#D1F6A4;
+    padding:20px 0px;
+}
+
+#product
+{
+    padding: 50px 120px ;
+    background-color: #fff;
+}
+
+.product-column
+{
+    padding: 3% 5%;
+    text-align: center;
+}
+
+.pd-products
+{
+    display:inline-block;
+    padding:9px 15px;
+}
+
+.chick-image
+{
+    width:20%;
+    position: absolute;
+    padding-top: 50px;
+}
+
+.dairy-image
+{
+    width:88%;
+    padding-left: 950px;
+    position: absolute;
+}
+
+.inner-products
+{   
+    position:relative;
+    padding:120px 100px 90px 100px;
+}
+
+
+
+/*Call to Action*/
+
+#cta
+{
+    background-color:#3F3F44;
+    /*#61B15A;*/
+    padding: 7% 18%;
+    text-align: center;
+    color:white;
+    /*#FFEFA1;*/
+}
+.cta-heading
+{
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/*Footer section*/
+
+#footer
+{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon
+{
+    margin:0px 10px 20px 10px;
+    color:black;
+}
+
+
+
+/*Contact Section*/
+
+.contact
+{
+    color: white;
+}
+.contact-container
+{
+    padding: 50px 150px 50px 150px;
+}
+.degree
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.upper-div
+{
+    background-color: black;
+    padding:2% 5%;
+    font-size: 1.5rem;
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+ 
+}
+
+.fa-arrow-left
+{
+    display: inline-block;
+}
+.back
+{
+    display:inline-block;
+    color:white;
+}
+.address-image
+{
+    width:80%;
+    padding-left:30px;
+    padding-top:25px;
+}
+
+
+
+/*Products Page*/
+
+
+.product-container
+{
+    padding: 50px 250px 50px 150px;
+    text-align: justify;
+    color:black;
+}
+
+.p-upper-div
+{
+    background-color: #2B2B2B;
+    opacity: 0.9;
+    padding:2% 5%;
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 500;   
+}
+
+
+/*  About Page */
+
+.about
+{
+    color:white;
+}
+
+.a-upper-div
+{
+    background-color: black;
+    padding:2% 5%;
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 500;   
+}
+.about-container
+{
+    padding: 50px 400px 200px 350px;
+    text-align: justify;
+}
+
+.about-text
+{
+    color:white;
+    font-size: 1rem;
+    padding:40px;
+    background-color:#171717;
+    opacity:0.7;
+}
+
+/*for mobile users*/
+
+@media (max-width: 1028px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .navbar
+    {
+        padding:40px;
+    }
+    .title-image
+    {
+        position: static;
+        width:70%;
+        padding-top:50px;
+        padding-left:0;
+        margin:0;
+    }
+    .container-fluid
+    {
+        padding:0 0 25px;
+    }
+    .almek-image
+    {
+        width:20%;
+    }
+    .carousel
+    {
+        width:100%;
+    }
+    #features
+    {
+        padding:20px;
+    }
+    .chick-image
+    {
+        width:23%;
+        padding-top: 50px;
+        padding-right: 20px;
+    }
+    .dairy-image
+    {
+       width:83%;
+       padding-left:530px;
+       padding-top: 30px;
+    }
+    .inner-products
+    {
+        text-align: center;
+        padding:150px 50px 100px;
+    }
+    #testimonials
+    {
+        text-align: justify;
+        padding: 120px 40px;
+    }
+    .about-container
+    {
+        padding: 50px 150px;
+        text-align: justify;
+    }
+    .product-container
+    {
+        padding: 50px 120px;
+        text-align: justify;
+    }
+    .contact-container
+    {
+        text-align: center;
+    }
+    .table
+    {
+        text-align: justify;
+    }
+    .address-image
+    {
+        padding:0;
+        width:90%;
+    }
+    .table-dark
+    {
+        margin-bottom: 50px;
+    }
+}
